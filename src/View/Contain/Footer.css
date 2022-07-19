@@ -1,0 +1,66 @@
+.footer{
+    width: 100vw;
+    background-color: black;
+    padding-block: 100px;
+    margin-top: 200px;
+
+}
+.footerTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footerTitle img{
+    height: 200px;
+}
+.footerDesc{
+    width: 100%;
+    padding-inline: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerDesc h3{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    color: White;
+    margin-bottom: 30px;
+}
+.footerDesc h4{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: White;
+
+}
+.footerCoop{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+}
+
+
+
+
+
+/*------ MEDIUM SMARTPHONE RESPONSIVE ------*/
+
+@media (max-width: 680px) {
+    .footer{
+        margin-top: 100px;
+    
+    }
+    .footerDesc{
+        width: 100%;
+        padding-inline: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+}

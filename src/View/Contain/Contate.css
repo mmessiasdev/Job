@@ -1,0 +1,127 @@
+.contate{
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 75px;
+  width: 100%;
+  margin-top: 100px;
+
+}
+.contate .redes{
+  display: flex;
+}
+
+.redes h1{
+  display: flex;
+}
+
+.contate h1{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 75px;
+}
+.contate a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .5s;
+  text-justify: inter-cluster;
+  width: 100%;
+}
+
+.contate a:hover{
+  transition: all .5s;
+  letter-spacing: 1px;
+  opacity: 50%;
+}
+
+.contate .divContate{
+  padding-inline: 50px;
+  display: flex;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(14, 14, 14));
+}
+
+.divQr{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.divQr img{
+  height: 150px;
+}
+.divRede{
+  border-radius: 50px;
+  padding: 10px;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.divQr img{
+  height: 500px;
+}
+
+.divQr .CellQrCode{
+  display: none;
+}
+
+
+
+
+
+/*------ LARGE SMARTPHONE RESPONSIVE ------*/
+
+@media (max-width: 900px) {
+  .divQr .CellQrCode{
+    display: flex;
+  }
+  .divQr .QrCode{
+    display: none;
+  }
+  
+}
+
+
+
+/*------ MEDIUM SMARTPHONE RESPONSIVE ------*/
+
+@media (max-width: 680px) {
+  .contate h1{
+    padding: 20px;
+  }
+  .divQr .CellQrCode{ 
+    display: none;
+  }
+  .contate a{
+    padding: 0px;
+    margin-left: 10px;
+  }
+  .contate h4{
+    font-size: 15px;
+    
+  }
+  .divRede{
+    padding-block: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .divRede .redes{
+    margin-top: 30px;
+  }
+  
+.contate a:hover{
+  letter-spacing: 0px;
+}
+.contate .divContate{
+  padding-inline: 10px;
+  display: flex;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(14, 14, 14));
+}
+
+  
+}

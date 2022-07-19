@@ -1,0 +1,78 @@
+.titleEsp{
+    margin-top: 100px;
+    background-color: #737373;
+    height: 0px;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.especiality{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #737373; */
+}
+.especiality h2{
+    width: 100%;
+    text-align: center;
+}
+.especiality h3{
+    width: 750px;
+    text-align: justify;
+}
+
+.especiality .desc{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.especiality .images{
+    margin-top: 50px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.especiality img{
+    width: 750px;
+}
+
+
+
+
+
+/*------ TABLET RESPONSIVE ------*/
+
+@media (max-width: 1050px) {
+    .especiality .images{
+        margin-top: 50px;
+        width: 100%;
+        margin-top: 50px;
+        background-color: #737373;
+    }
+    .especiality img{
+        width: 100%;
+    }
+    
+  }
+
+
+/*------ LARGE SMARTPHONE RESPONSIVE ------*/
+
+@media (max-width: 800px) {
+    .especiality{
+        padding: 20px;
+
+    }
+  }

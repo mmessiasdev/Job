@@ -5,17 +5,25 @@
 .galery h2{
     width: 100vw;
     display: flex;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 50px;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     font-weight: 200;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.galery h2 img{
+    padding: 0px;
+    height: 120px;
 }
 .galery .divGalery1{
     margin-top: 20px;
 }
 .galery h4{
     font-weight: 500;
-
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .divGalery1 div img {
     width: 100vw;

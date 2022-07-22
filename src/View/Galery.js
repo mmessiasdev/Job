@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Footer from "./Contain/Footer";
-import { useState, useEffect } from 'react';
+import Logo from './Assets/Logo.png';
+
 
 import Image1 from './Assets/About/IMG_1378.png';
 import Image3 from './Assets/About/IMG_1373.png';
@@ -55,7 +56,7 @@ export default class Galery extends Component {
         return (
             <div className="galery">
                 <div>
-                    <h2>Galería Job</h2>
+                    <h2><img src={Logo}/></h2>
                     <h4>Fotos:</h4>
                     <Slider className="divGalery1" {...settings1}
                         asNavFor={this.state.nav2}

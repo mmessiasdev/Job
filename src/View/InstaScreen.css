@@ -56,7 +56,7 @@
 .textsIs a{
     display: flex;
     justify-content: center;
-    width: 50%;
+    padding-inline: 30px;
     border-radius: 2px;
     text-decoration: none;
     padding-block: 10px;

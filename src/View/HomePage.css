@@ -55,7 +55,7 @@ h1{
     transform: scale(1.3);
   }
   90%{
-    opacity: 30%;
+    opacity: 30%; 
   }
   100%{
     opacity: 5%;
@@ -91,10 +91,14 @@ h1{
     height: 300px;
   }
   .menuActive{
-    width: 90%;
-    margin-top: 10px;
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 50px;
+  }
+  .menuActive a{
+    font-size: 20px;
   }
 }
 
@@ -105,5 +109,32 @@ h1{
 @media (max-width: 500px) {
   .title img{
     height: 200px;
+ 
+  }
+  .walpapper img{
+    animation: leftImg 20s infinite;
+    opacity: 5%;
+    position: relative;
+  }
+  .menuActive{
+    display: none;
+  }
+  @keyframes leftImg{
+    0%{
+      opacity: 5%;
+      left: 0%;
+    }
+    50%{
+      opacity: 40%;
+      left: -100%;
+    }
+    90%{
+      opacity: 10%;
+      left: 100%;
+    }
+    100%{
+      opacity: 5%;
+      left: 0%;
+    }
   }
 }

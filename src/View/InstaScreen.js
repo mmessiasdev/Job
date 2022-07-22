@@ -28,7 +28,7 @@ const InstaScreen = () => {
                         </Link>
                     </div>
                     <div className="buttonIs" data-aos="fade-left" data-aos-duration="1500">
-                        <Link to="/homepage" className="link">
+                        <Link to="/galery" className="link">
                             <a className="buttonGalery" type="submit">
                                 Galería
                             </a>

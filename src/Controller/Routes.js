@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import history from "../Model/History";
+import Galery from '../View/Galery';
 import HomePage from '../View/HomePage';
 import InstaScreen from '../View/InstaScreen';
 
@@ -15,6 +16,7 @@ function RoutesPage() {
             <Routes>
                 <Route path="/" element={<InstaScreen />} />
                 <Route path="/homepage" element={<HomePage />} />
+                <Route path="/galery" element={<Galery/>} />
             </Routes>
 
         </Router>

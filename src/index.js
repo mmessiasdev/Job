@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import RoutesPage from './Controller/Routes';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /* ---- Imports Css View ---- */
 import './index.css';
 import './View/HomePage.css';
+import './View/Galery.css';
 import './View/InstaScreen.css';
 import './View/Contain/About.css';
 import './View/Contain/Especiality.css';

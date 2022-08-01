@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import RoutesPage from './Controller/Routes';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* ---- Imports Css View ---- */
 import './index.css';

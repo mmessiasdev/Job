@@ -13,6 +13,10 @@
   display: flex;
 }
 
+.divCellQr{
+  display: none;
+}
+
 .contate h1{
     font-family: 'Yanone Kaffeesatz';
     font-size: 75px;
@@ -37,7 +41,10 @@
 .contate .divContate{
   padding-inline: 50px;
   display: flex;
+}
+.divQrContante{
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(14, 14, 14));
+
 }
 
 .divQr{
@@ -93,8 +100,14 @@
   .contate h1{
     padding: 20px;
   }
-  .divQr .CellQrCode{ 
-    display: none;
+  .divCellQr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .divCellQr img{
+    height: 480px;
   }
   .contate a{
     padding: 0px;
@@ -120,7 +133,6 @@
 .contate .divContate{
   padding-inline: 10px;
   display: flex;
-  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(14, 14, 14));
 }
 
   

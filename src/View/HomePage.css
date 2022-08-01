@@ -33,7 +33,7 @@ h1{
     opacity: 5%;
   }
   50%{
-    opacity: 10%;
+    opacity: 15%;
   }
   90%{
     opacity: 30%; 
@@ -116,7 +116,7 @@ h1{
 
 @media (max-width: 500px) {
   .title img{
-    height: 200px;
+    height: 260px;
  
   }
   .walpapper img{
@@ -129,7 +129,7 @@ h1{
   }
   @keyframes leftImg{
     0%{
-      opacity: 5%;
+      opacity: 50%;
       left: 0%;
     }
     50%{
@@ -137,12 +137,18 @@ h1{
       left: -100%;
     }
     90%{
-      opacity: 10%;
+      opacity: 20%;
       left: 100%;
     }
     100%{
-      opacity: 5%;
+      opacity: 50%;
       left: 0%;
     }
+  }
+}
+
+@media (max-width: 290px) {
+  .title img{
+    height: 200px;
   }
 }

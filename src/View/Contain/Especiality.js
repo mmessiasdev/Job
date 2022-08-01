@@ -36,7 +36,7 @@ const Especiality = () => {
 
                     <h2>Pergolados</h2>
                     <div className="desc">
-                        <h3>Pergolados: <h4>Os pergolados são uma estrutura formada por um sistema de vigas modulares que são utilizados em áreas externas da residência como jardins, varandas, hall de entrada, fachadas, corredores e ambientes próximos à piscina e churrasqueira. Essa estrutura na maioria das vezes é feito de madeira, mas podem ser projetados em aço, ferro, bambu e concreto.</h4></h3>
+                        <h3>Pergolados: <h4>são uma estrutura formada por um sistema de vigas modulares que são utilizados em áreas externas da residência como jardins, varandas, hall de entrada, fachadas, corredores e ambientes próximos à piscina e churrasqueira. Essa estrutura na maioria das vezes é feito de madeira, mas podem ser projetados em aço, ferro, bambu e concreto.</h4></h3>
                     </div>
                     <div className="images">
                         <img src={Pergolado} />
@@ -46,7 +46,7 @@ const Especiality = () => {
 
                     <h2>Deck</h2>
                     <div className="desc">
-                        <h3>Deck: <h4>deck é muito utilizado em áreas de piscina e demais áreas molhadas graças à suas características antiderrapante e antitérmico. Por isso, ele também pode ser colocado forrado pisos de varandas, sacadas e terraços ou qualquer outro local que fique exposto ao tempo</h4></h3>
+                        <h3>Deck: <h4>é muito utilizado em áreas de piscina e demais áreas molhadas graças à suas características antiderrapante e antitérmico. Por isso, ele também pode ser colocado forrado pisos de varandas, sacadas e terraços ou qualquer outro local que fique exposto ao tempo</h4></h3>
                     </div>
                     <div className="images">
                         <img src={Deck} />
@@ -56,7 +56,7 @@ const Especiality = () => {
 
                     <h2>Assoalhos</h2>
                     <div className="desc">
-                        <h3>Assoalhos: <h4>Assoalho de madeira é um tipo de piso composto por tábuas maciças de madeira que podem ser feitas de ipê, jatobá, marfim, cumaru, peroba, carvalho, entre outras espécies. Trata-se de um revestimento extremamente resistente que traz elegância e conforto para o ambiente.</h4></h3>
+                        <h3>Assoalho de madeira: <h4>é um tipo de piso composto por tábuas maciças de madeira que podem ser feitas de ipê, jatobá, marfim, cumaru, peroba, carvalho, entre outras espécies. Trata-se de um revestimento extremamente resistente que traz elegância e conforto para o ambiente.</h4></h3>
                     </div>
                     <div className="images">
                         <img src={Assoalho} />
@@ -66,7 +66,7 @@ const Especiality = () => {
 
                     <h2>Esquadrias</h2>
                     <div className="desc">
-                        <h3>Esquadrias: <h4>As esquadrias são armações ou estruturas de portas e janelas que podem ser confeccionadas em vários materiais como madeira, alumínio, ferro e PVC. Caso você esteja construindo ou reformando a sua casa, saiba que as esquadrias adequadas podem valorizar o imóvel.</h4></h3>
+                        <h3>Esquadrias: <h4>são armações ou estruturas de portas e janelas que podem ser confeccionadas em vários materiais como madeira, alumínio, ferro e PVC. Caso você esteja construindo ou reformando a sua casa, saiba que as esquadrias adequadas podem valorizar o imóvel.</h4></h3>
                     </div>
                     <div className="images">
                         <img src={Esquadrias} />
@@ -76,7 +76,7 @@ const Especiality = () => {
 
                     <h2>Brises</h2>
                     <div className="desc">
-                        <h3>Brises: <h4>Brises: Os brises barram a incidência da radiação solar antes que ela atinja a fachada e, consequentemente, o ambiente interno, reduzindo o calor recebido</h4></h3>
+                        <h3>Brises: <h4>barram a incidência da radiação solar antes que ela atinja a fachada e, consequentemente, o ambiente interno, reduzindo o calor recebido</h4></h3>
                     </div>
                     <div className="images">
                         <img src={Brises} />

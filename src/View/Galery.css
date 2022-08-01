@@ -16,7 +16,7 @@
 }
 .galery h2 img{
     padding: 0px;
-    height: 120px;
+    height: 200px;
 }
 .galery .divGalery1{
     margin-top: 20px;
@@ -24,13 +24,13 @@
 .galery h4{
     font-weight: 500;
     margin-top: 20px;
+    padding-inline: 10px;
 }
 .divGalery1 div img {
     width: 100vw;
     height: 50vh;
     object-fit: cover;
     animation: zoomImg 30s infinite;
-
 }
 
 .galery .divGalery2 {

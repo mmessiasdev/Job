@@ -1,3 +1,5 @@
+/*------ MAX SCREEEN RESPONSIVE ------*/
+
 .service h1{
     width: 100vw;
     justify-content: end;
@@ -21,7 +23,7 @@
 }
 
 .service .before{
-    height: 500px;
+    height: 400px;
     width: 360px;
     border-radius: 5px;
     overflow: hidden;
@@ -47,8 +49,8 @@
 }
 
 .service .after{
-    height: 500px;
-    width: 710px;
+    height: 400px;
+    width: 600px;
     border-radius: 5px;
     overflow: hidden;
     display: flex;
@@ -58,7 +60,7 @@
 
 .service .after img{
     position: relative;
-    width: 710px;
+    width: 600px;
     animation: beforeAnim 25s infinite;
     opacity: 100%;
 }
@@ -105,7 +107,6 @@
 }
 
 .bAFlex{
-    width: 100w;
     justify-content: center;
     display: flex;
 }
@@ -135,7 +136,7 @@
 
 /*------ TABLET RESPONSIVE ------*/
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
     .service .after{
         width: 300px;
         height: 400px;
@@ -193,28 +194,27 @@
     .service .after{
         margin-top: 20px;
         margin-left: 20px;
-        width: 160px;
-        height: 220px;
+        width: 220px;
+        height: 290px;
         border-bottom-right-radius: 20px;
     }
     .service .before{
         margin-top: 50px;
         margin-left: -20px;
-        width: 160px;
-
-        height: 220px;
+        width: 220px;
+        height: 290px;
         border-top-left-radius: 20px;
     }
     .service .after img{
         object-fit: cover;
         animation: none;
-        width: 160px;
-        height: 220px;
+        width: 220px;
+        height: 290px;
     }
     .service .before img{
         object-fit: cover;
-        width: 160px;
-        height: 220px;
+        width: 220px;
+        height: 290px;
         border-top-left-radius: 30px;
     }
     .gradientBef{
@@ -269,7 +269,4 @@
     width: 100%;
     margin-left: 20px;
 }
-    
-
-
-  }
+}

@@ -194,27 +194,27 @@
     .service .after{
         margin-top: 20px;
         margin-left: 20px;
-        width: 220px;
-        height: 290px;
+        width: 190px;
+        height: 260px;
         border-bottom-right-radius: 20px;
     }
     .service .before{
         margin-top: 50px;
         margin-left: -20px;
-        width: 220px;
-        height: 290px;
+        width: 190px;
+        height: 260px;
         border-top-left-radius: 20px;
     }
     .service .after img{
         object-fit: cover;
         animation: none;
-        width: 220px;
-        height: 290px;
+        width: 190px;
+        height: 260px;
     }
     .service .before img{
         object-fit: cover;
-        width: 220px;
-        height: 290px;
+        width: 190px;
+        height: 260px;
         border-top-left-radius: 30px;
     }
     .gradientBef{

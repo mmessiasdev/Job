@@ -9,13 +9,25 @@ import Image3 from './Assets/About/IMG_1373.png';
 import Image4 from './Assets/About/IMG_1580.png';
 import Image5 from './Assets/About/IMG_3249.png';
 import Image6 from './Assets/About/IMG_1333.png';
-import Image7 from './Assets/About/IMG_0685.png';
 import Image8 from './Assets/About/1d9138df-c9ed-49ee-916b-fadeee4bd5e6 1.png';
 import Image9 from './Assets/About/15d1943d-bfef-4779-a4ac-88cc664412e5 2.png';
 import Image10 from './Assets/About/abd89e08-2c3b-4edb-bf54-eeba3566a29a 1.png';
 import Image11 from './Assets/About/b4fd0b48-fcc3-4d5b-92eb-958019227518 1.png';
 import Image12 from './Assets/About/35909217-ce01-42d2-96ab-607644f549cc 2.png';
 import Image13 from './Assets/About/IMG_1027 4.png';
+import Image14 from './Assets/About/IMG_7154.png';
+import Image15 from './Assets/About/IMG_7288.png';
+import Image16 from './Assets/About/IMG_7290.png';
+import Image17 from './Assets/About/IMG_7291.png';
+import Image18 from './Assets/About/IMG_8001.png';
+import Image19 from './Assets/About/IMG_8002.png';
+import Image20 from './Assets/About/IMG_8262.png';
+import Image21 from './Assets/About/IMG_8266.png';
+import Image22 from './Assets/About/IMG_8268.png';
+
+
+
+
 
 import PuffLoader from "react-spinners/PuffLoader";
 
@@ -56,12 +68,39 @@ export default class Galery extends Component {
         return (
             <div className="galery">
                 <div>
-                    <h2><img src={Logo}/></h2>
+                    <h2><img src={Logo} /></h2>
                     <h4>Fotos:</h4>
                     <Slider className="divGalery1" {...settings1}
                         asNavFor={this.state.nav2}
                         ref={slider => (this.slider1 = slider)}
                     >
+                        <div>
+                            <img src={Image14} />
+                        </div>
+                        <div>
+                            <img src={Image15} />
+                        </div>
+                        <div>
+                            <img src={Image16} />
+                        </div>
+                        <div>
+                            <img src={Image17} />
+                        </div>
+                        <div>
+                            <img src={Image18} />
+                        </div>
+                        <div>
+                            <img src={Image19} />
+                        </div>
+                        <div>
+                            <img src={Image20} />
+                        </div>
+                        <div>
+                            <img src={Image21} />
+                        </div>
+                        <div>
+                            <img src={Image22} />
+                        </div>
                         <div>
                             <img src={Image5} />
                         </div>
@@ -90,9 +129,6 @@ export default class Galery extends Component {
                             <img src={Image6} />
                         </div>
                         <div>
-                            <img src={Image7} />
-                        </div>
-                        <div>
                             <img src={Image12} />
                         </div>
                         <div>
@@ -107,6 +143,33 @@ export default class Galery extends Component {
                             swipeToSlide={true}
                             focusOnSelect={true}
                         >
+                            <div>
+                                <img src={Image14} />
+                            </div>
+                            <div>
+                                <img src={Image15} />
+                            </div>
+                            <div>
+                                <img src={Image16} />
+                            </div>
+                            <div>
+                                <img src={Image17} />
+                            </div>
+                            <div>
+                                <img src={Image18} />
+                            </div>
+                            <div>
+                                <img src={Image19} />
+                            </div>
+                            <div>
+                                <img src={Image20} />
+                            </div>
+                            <div>
+                                <img src={Image21} />
+                            </div>
+                            <div>
+                                <img src={Image22} />
+                            </div>
                             <div>
                                 <img src={Image5} />
                             </div>
@@ -133,9 +196,6 @@ export default class Galery extends Component {
                             </div>
                             <div>
                                 <img src={Image6} />
-                            </div>
-                            <div>
-                                <img src={Image7} />
                             </div>
                             <div>
                                 <img src={Image12} />
